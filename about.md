@@ -4,12 +4,22 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Dave is doing IT security consulting for a German consulting firm specialising
+in -- you guessed it -- IT security. Main focus of his work currently can be
+summarised by "knows how to break web{applications,services}".
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+He knows how to use the tools of the trade and sometimes actually has to offer
+advice on some topics. This blog is about the umpteenth attempt at writing more
+or less regularly about interesting technical stuff. Since just technical
+blogging would be too boring, some private thoughts might get mixed in as well.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+On the private side, Dave is married to an amazing system tester for a
+multinational company and father to an aspiring young hacker who utilises
+malicious compliance to the fullest extent while still sleeping in their parents
+bed.
+
+In his (rare) spare time, Dave likes to visit the [local
+hackerspace](https://www.shackspace.de), volunteers at the local branch of the
+[German Federal Agency for Technical Relief](https://www.thw.de) or tries to
+broaden his horizon by being an active
+[freemason](https://www.freimaurer-esslingen.de).
