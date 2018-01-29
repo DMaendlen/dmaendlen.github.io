@@ -1,5 +1,5 @@
 ---
-title: Update: Goals for the new year
+title: (Update) Goals for the new year
 categories: future personal
 ---
 When I made [this list of
