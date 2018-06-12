@@ -90,6 +90,29 @@ PFSense via the switch's uplink and it was an all-around pain. Yes, I lerned
 something from that but I wouldn't recommend that experience for a production
 setup.
 
+### Firewall configuration
+The firewall rules on the PFSense are rather simple: mgmt.nrd may talk to every
+other VLAN, all other VLANs may only talk to themselves and to the internet. The
+srf.nrd VLAN may also talk to the printer in the mgmt.nrd VLAN.
+
+The guest network is completely separated from my network by using a separate
+NIC on the PFSense. That NIC is configured as GUEST interface with firewall
+rules forbidding it from accessing anything on the LAN side. Furthermore the
+WiFi is provided by [Freifunk Stuttgart](https://freifunk-stuttgart.de/), a
+local initiative of people who want a free net. (Free as in freedom, that is.)
+
+I'm a member of this initiative and I like the idea of not having to tell people
+a WiFi password. The SSID is unencrypted and so everybody can connect to it. To
+'comply' with german law we actually use a loophole: traffic is routed via VPN
+to $somewhere and I don't really care about it after that.
+
+So basically an attacker would have to break out of the Freifunk tunnel, break
+through my firewall and then would have to find an insecure device with an open
+port in my network. I highly doubt that my measly salary justifies that effort.
+
+As always, IT security is not nailing down everything and anything but just
+making it not worth the effort for an attacker.
+
 ### Zyxel GS1900-10HP
 The Zyxel configuration is a little less easy. For one, Zyxel uses a weird
 terminology in their [user
