@@ -98,7 +98,9 @@ srf.nrd VLAN may also talk to the printer in the mgmt.nrd VLAN.
 The guest network is completely separated from my network by using a separate
 NIC on the PFSense. That NIC is configured as GUEST interface with firewall
 rules forbidding it from accessing anything on the LAN side. Furthermore the
-WiFi is provided by [Freifunk Stuttgart](https://freifunk-stuttgart.de/), a
+WiFi is provided by a [TP-Link Archer
+C7](https://www.amazon.de/TP-Link-AC1750-Dualband-Gigabit-schwarz/dp/B00BUSDVBQ)
+running software from [Freifunk Stuttgart](https://freifunk-stuttgart.de/), a
 local initiative of people who want a free net. (Free as in freedom, that is.)
 
 I'm a member of this initiative and I like the idea of not having to tell people
