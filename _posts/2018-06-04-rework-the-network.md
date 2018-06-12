@@ -51,7 +51,7 @@ network port, currently used as the access port for management, that could be
 used for further extension of the network. Although I'd probably just [buy a
 bigger switch](https://www.youtube.com/watch?v=QT9BeGNnCqw).
 
-<img src='images/phys.nrd.png' alt='physical network layout' class='inline'>
+![physical network layout](/images/phys.nrd.png)
 
 Why would I use one physical network? Well, because having redundant devices
 would be a little bit overkill for a simple home network, wouldn't it?
@@ -69,7 +69,7 @@ into VLAN 20, the mobile devices into VLAN 30 and work-related devices
 port level on the switch for wired connections and by the RADIUS server for
 wireless ones.
 
-<img src='images/lgcl.nrd.png' alt='logical network layout' class='inline'>
+![logical network layout](/images/lgcl.nrd.png)
 
 ## Setup
 
