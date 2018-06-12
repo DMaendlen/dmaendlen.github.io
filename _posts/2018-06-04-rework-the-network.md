@@ -152,7 +152,19 @@ trial and error until I finally stumbled upon [Tony Maro's really helpful
 post](https://www.ossramblings.com/RADIUS-3.X-Server-on-Ubuntu-14.04-for-WIFI-Auth)
 which cleared my path to success.
 
-Somewhat down at the end he mentions freeradius being unable to create a /tmp/
+To match users to their respective VLAN I edited the users file:
+```
+dmaendlen_laptop
+	Tunnel-Type = VLAN,
+	Tunnel-Medium-Type = IEEE-802,
+	Tunne-Private-Group-Id = "20"
+```
+
+This pushes my user dmaendlen_laptop into the srf.nrd VLAN. Attention: the user
+only needs a valid certificate, no passwords are needed. If you need better
+security think about using passwords for your users for a second factor.
+
+Somewhat down at the end Tony mentions freeradius being unable to create a /tmp/
 directory. I solved that by making use of tmpfiles.
 
 ```
